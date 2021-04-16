@@ -25,8 +25,8 @@
 		"interstitialsupgrade": false,
 
 		"interstitials_frequency": 120,
-		"interstitials_first_delay": 120,
-		"interstitials_first_level": 3,
+		"interstitials_first_delay": 30,
+		"interstitials_first_level": 1,
 
 		"rewarded_level_up": true,
 		"rewarded_offline": true,
@@ -160,9 +160,11 @@
 		"hw_tutorial": false,
 		"hw_skin_shop": false,
 		"hw_fly_ornament": false,
-		"hw_new_fly": false,
+		"hw_new_fly": true,
+		"hw_new_fly_popcorn_count": 1,
+		"hw_new_fly_random_popcorn": true,
 		"hw_first_free_popcorn": false,
-		"hw_interstitial_time": 60,
+		"hw_interstitial_time": 30,
 
 		"AB_test_users": 100
 
@@ -170,23 +172,32 @@
 
 	"ABtests": {
 
-		"2_6_0_Ref": {
+		"2_6_1_Ref": {
 			"panel_size": 100
 		},
-		"2_6_0_A": {
-			"panel_size": 100,
-			"hw_new_fly": true
-		},
-		"2_6_0_B": {
+		"2_6_1_A": {
 			"panel_size": 100,
 			"hw_first_free_popcorn": true
 		},
-		"2_6_0_C": {
+		"2_6_1_B": {
 			"panel_size": 100,
-			"hw_interstitial_time": 30,
-			"interstitials_first_delay": 30,
-			"interstitials_first_level": 1
+			"hw_interstitial_time": 20,
+			"interstitials_first_delay": 20
+		},
+		"2_6_1_C": {
+			"panel_size": 100,
+			"hw_interstitial_time": 10,
+			"interstitials_first_delay": 10
+		},
+		"2_6_1_D": {
+			"panel_size": 100,
+			"hw_new_fly_popcorn_count": 1,
+			"hw_new_fly_random_popcorn": false
+		},
+		"2_6_1_E": {
+			"panel_size": 100,
+			"hw_new_fly_popcorn_count": 2,
+			"hw_new_fly_random_popcorn": false
 		}
-
 	}
 }
