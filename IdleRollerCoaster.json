@@ -25,7 +25,7 @@
 		"interstitialsupgrade": false,
 
 		"interstitials_frequency": 120,
-		"interstitials_first_delay": 20,
+		"interstitials_first_delay": 25,
 		"interstitials_first_level": 1,
 
 		"rewarded_level_up": true,
@@ -164,7 +164,10 @@
 		"hw_new_fly_popcorn_count": 1,
 		"hw_new_fly_random_popcorn": true,
 		"hw_first_free_popcorn": false,
-		"hw_interstitial_time": 20,
+		"hw_interstitial_time": 25,
+
+		"hw_new_world_progress": false,
+		"hw_old_world_sell": false,
 
 		"AB_test_users": 100
 
@@ -172,23 +175,23 @@
 
 	"ABtests": {
 
-		"2_6_2_Ref": {
+		"2_6_3_Ref": {
 			"panel_size": 100
 		},
-		"2_6_2_A": {
+		"2_6_3_A": {
 			"panel_size": 100,
-			"hw_new_fly_popcorn_count": 2,
-			"hw_new_fly_random_popcorn": false
+			"world_levels_gap": 10,
+			"hw_new_world_progress": true
 		},
-		"2_6_2_B": {
+		"2_6_3_B": {
 			"panel_size": 100,
-			"hw_interstitial_time": 25,
-			"interstitials_first_delay": 25
+			"hw_old_world_sell": true
 		},
-		"2_6_2_C": {
+		"2_6_3_C": {
 			"panel_size": 100,
-			"hw_interstitial_time": 15,
-			"interstitials_first_delay": 15
+			"world_levels_gap": 10,
+			"hw_new_world_progress": true,
+			"hw_old_world_sell": true
 		}
 	}
 }
