@@ -63,7 +63,7 @@
 		"manager_IAP": false,
 
 		"W1_new_design": false,
-		"world_levels_gap": 20,
+		"world_levels_gap": 10,
 		"new_permanent_bonus": false,
 
 		"rv_for_upgrade": false,
@@ -166,7 +166,7 @@
 		"hw_first_free_popcorn": false,
 		"hw_interstitial_time": 25,
 
-		"hw_new_world_progress": false,
+		"hw_new_world_progress": true,
 		"hw_old_world_sell": false,
 
 		"AB_test_users": 100
@@ -175,23 +175,17 @@
 
 	"ABtests": {
 
-		"2_6_3_Ref": {
+		"2_6_4_Ref": {
 			"panel_size": 100
 		},
-		"2_6_3_A": {
-			"panel_size": 100,
-			"world_levels_gap": 10,
-			"hw_new_world_progress": true
+		"2_6_4_A": {
+			"panel_size": 100
 		},
-		"2_6_3_B": {
-			"panel_size": 100,
-			"hw_old_world_sell": true
+		"2_6_4_B": {
+			"panel_size": 100
 		},
-		"2_6_3_C": {
-			"panel_size": 100,
-			"world_levels_gap": 10,
-			"hw_new_world_progress": true,
-			"hw_old_world_sell": true
+		"2_6_4_C": {
+			"panel_size": 100
 		}
 	}
 }
